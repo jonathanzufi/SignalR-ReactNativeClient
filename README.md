@@ -1,6 +1,9 @@
 # SignalR-ReactNativeClient
 An example project incorporating Microsoft's SignalR Javascript client framework 
 
+
+<img src="https://github.com/jonathanzufi/SignalR-ReactNativeClient/blob/master/assets/ios_preview.png">
+
 ## Setup
 Before attempting to run this demo please make sure that you have taken care of the following dependencies
 
