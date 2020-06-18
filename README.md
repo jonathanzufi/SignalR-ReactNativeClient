@@ -19,7 +19,7 @@ For background, please see https://medium.com/<url>
 * 40 open tabs at Stack Overflow
   
 ## Setup
-This setup assumes you have the React Native CLI installed. 
+This setup assumes you have the React Native CLI installed. If you prefer Expo, use `expo init` with the Expo CLI to make a new project, and then copy over all the JavaScript source code from this project, and then `yarn install` the dependencies.
 
 After pulling down the repo, run `yarn install` to pull down all dependencies listed in the package.json file including Microsoft's SignalR library:
 ```
