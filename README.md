@@ -19,56 +19,31 @@ For background, please see https://medium.com/<url>
 * 40 open tabs at Stack Overflow
   
 ## Setup
-Before attempting to run this demo please make sure that you have taken care of the following dependencies
+This setup assumes you have the React Native CLI installed. 
 
-Ensure that you have [node](https://nodejs.org/en/download/) installed and then use npm to install react native as described below
-
-### Installing node
-The simplest way to get started is to install [homebrew](https://brew.sh) on your system.
-You can then install node and watchman with the following commands
+After pulling down the repo, run `yarn install` to pull down all dependencies listed in the package.json file including Microsoft's SignalR library:
 ```
-brew install node
-brew install watchman
+yarn install
 ```
 
-### Installing React-Native Command Line Interface
-You may install react-native with the following npm command
+Once this is complete, navigate to the \ios folder to install Cocoapods dependencies:
 ```
-npm install -g react-native-cli
-```
-once this is complete, navigate to this projects folder and type 
-```
-npm install
-``` 
-to install all dependencies listed in the project's package.json file
-
-### Configuring the environments for iOS and Android
-
-__iOS (XCode)__
-
-Navigate to project ios subfolder and run
-```
+cd ios
 pod install
+``` 
+
 ```
-to install the latest iOS MotionDNA SDK
-
-__Android (Android Studio)__
-
-Open the Android project folder in Android Studio
-Aside from instant run, install any recommended dependencies and build tools that are suggested
-
 
 ## Running the demo
-The project is designed to work with both iOS and Android systems. It will run on the simulator or the actual device.
+The project is designed to work with both iOS and Android systems but I've only tested it on iOS. It should run on the simulator or the actual device.
 
-You can start streaming the app to your device with the following commands
 
 __For iOS__
 
 ```
 react-native run-ios
 ```
-For iOS you will probably want to have the simulator open already as XCode 9 does not start the simulator automatically with this command
+
 
 __For Android__
 
