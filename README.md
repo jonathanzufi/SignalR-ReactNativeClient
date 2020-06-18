@@ -1,5 +1,5 @@
 # SignalR-ReactNativeClient
-A simple chat client using Microsoft's SignalR Javascript client framework, designed to work with a SignalR hub hosted on the open web. It uses Microsoft's `@microsoft\signalr` library to communicate to a live SignalR hub.
+A simple chat client using Microsoft's SignalR Javascript client framework, designed to work with a SignalR hub hosted on the open web. It uses Microsoft's `@microsoft\signalr` library to communicate to a live SignalR hub currently hosted at https://signalrdemo.com
 
 <p align="center">
   <img width="300" height="559" src="https://github.com/jonathanzufi/SignalR-ReactNativeClient/blob/master/assets/ios_preview.png">
