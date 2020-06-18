@@ -3,9 +3,9 @@ An simple chat client using Microsoft's SignalR Javascript client framework.
 
 <img src="https://github.com/jonathanzufi/SignalR-ReactNativeClient/blob/master/assets/ios_preview.png">
 
-This is a simple SignalR chat client designed to work with a SignalR hub hosted on the open web. This is based on the sample server app provided by Microsoft's sample chat client at https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio 
+This is a simple SignalR chat client designed to work with a SignalR hub hosted on the open web. It uses Microsoft's `@microsoft\signalr` library to communicate to a live SignalR hub.
 
-The app uses the @microsoft\signalr library. 
+This work was inspired by the sample server app provided by Microsoft's example chat client at https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio 
 
 For background, please see https://medium.com/<url>  
   
