@@ -49,8 +49,8 @@ Open the Android project folder in Android Studio
 Aside from instant run, install any recommended dependencies and build tools that are suggested
 
 
-## Running the demos
-The hello world project is designed to work with both ios and android systems. It will run on the simulator or the actual device.
+## Running the demo
+The project is designed to work with both iOS and Android systems. It will run on the simulator or the actual device.
 
 You can start streaming the app to your device with the following commands
 
@@ -68,5 +68,5 @@ react-native run-android
 ```
 Be sure you have the android platform-tools in your PATH environment variable so that react can access tools like adb to run your app. You may need to setup a virtual device first if you wish to use the simulator.
 
-You may also run either app by using the standard build and run tools in each platforms respective IDE
+You may also run either app by using the standard build and run tools in each platforms respective IDE.
 
