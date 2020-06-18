@@ -32,20 +32,19 @@ cd ios
 pod install
 ``` 
 
-```
-
 ## Running the demo
+
 The project is designed to work with both iOS and Android systems but I've only tested it on iOS. It should run on the simulator or the actual device.
 
 
-__For iOS__
+__iOS__
 
 ```
 react-native run-ios
 ```
 
 
-__For Android__
+__Android__
 
 ```
 react-native run-android
