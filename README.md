@@ -1,13 +1,22 @@
 # SignalR-ReactNativeClient
-An example project incorporating Microsoft's SignalR Javascript client framework 
+An simple chat client using Microsoft's SignalR Javascript client framework.
 
 <img src="https://github.com/jonathanzufi/SignalR-ReactNativeClient/blob/master/assets/ios_preview.png">
 
-This is a simple SignalR chat client designed to work with a SignalR hub hosted on the open web. This is designed to talk to a simple chat server similar to the implementation provided by Microsoft's sample at https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio 
+This is a simple SignalR chat client designed to work with a SignalR hub hosted on the open web. This is based on the sample server app provided by Microsoft's sample chat client at https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-3.1&tabs=visual-studio 
 
 The app uses the @microsoft\signalr library. 
 
 For background, please see https://medium.com/<url>  
+  
+  ## Stack used
+
+* macOS Cataline 10.15.15
+* React Native CLI 4.10.0
+* Microsoft SignalR JS library 3.1.5
+* Visual Studio Code
+* ESLint
+* 40 open tabs at Stack Overflow
   
 ## Setup
 Before attempting to run this demo please make sure that you have taken care of the following dependencies
