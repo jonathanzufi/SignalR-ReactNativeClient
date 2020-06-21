@@ -4,11 +4,7 @@
 **/
 
 import React, { useEffect } from 'react';
-import {
-  SafeAreaView, StyleSheet, ScrollView, View,
-  Text, StatusBar, TextInput, TouchableOpacity,
-  Dimensions, FlatList
-} from 'react-native';
+import { SafeAreaView, StyleSheet, View, Text, TextInput, TouchableOpacity, FlatList } from 'react-native';
 import { HubConnectionBuilder, LogLevel } from '@microsoft/signalr';
 import { setJSExceptionHandler } from 'react-native-exception-handler';
 
