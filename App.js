@@ -30,6 +30,7 @@ function buttonEnabled(enabled) {
   return (enabled ? styles.buttonText_enabled : styles.buttonText_disabled);
 }
 
+// The public hub to connect to. This is running code from https://github.com/jonathanzufi/SignalRWebServer 
 const hub_endpoint = 'https://signalrdemo.com/chatHub';
 
 const App: () => React$Node = () => {
