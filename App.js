@@ -17,7 +17,7 @@ const errorHandler = (e, isFatal) => {
 }
 setJSExceptionHandler(errorHandler, true);
 
-// This function defines how we'll render incoming messages in the message log
+// Defines how we'll render incoming messages in the message log
 function MessageItem({ title }) {
   return (
     <View style={styles.item}>
@@ -27,15 +27,12 @@ function MessageItem({ title }) {
 }
 
 function buttonEnabled(enabled) {
-  if (enabled)
-    return styles.buttonText_enabled;
-  else
-    return styles.buttonText_disabled;
+  return (enabled ? styles.buttonText_enabled : styles.buttonText_disabled);
 }
 
-const App: () => React$Node = () => {
+const hub_endpoint = 'https://signalrdemo.com/chatHub';
 
-  const hub_endpoint = 'https://signalrdemo.com/chatHub';
+const App: () => React$Node = () => {
 
   const [user, onChangeUserText] = React.useState('');
   const [message, onChangeMessageText] = React.useState('');
@@ -57,6 +54,7 @@ const App: () => React$Node = () => {
 
     setConnectedStateText(`Trying to connect to ${hub_endpoint}`);
 
+    // Try to start the connection
     connection
       .start()
       .then(() => {
