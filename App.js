@@ -64,11 +64,13 @@ const App: () => React$Node = () => {
       })
       .catch(err => console.log(`Error starting the connection: ${err.toString()}`));
 
+    // Handle connection closing
     connection.onclose(async () => {
       setConnectedStateText(`Disconnected from ${hub_endpoint}`);
       setConnected(false);
     });
 
+    // Incoming messages will grow the message log array
     connection.on("ReceiveMessage", function (user, message) {
       setMessageLog(messageLog => [...messageLog.concat({
         id: Date.now().toString(),    // Give our flatlist keyExtractor something to key off
